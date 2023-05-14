@@ -19,8 +19,7 @@ class _ResultPageState extends State<ResultPage>
 
   @override
   void initState() {
-    // print('get result api');
-
+    print('get result api');
     _controller.fetchData(context);
     super.initState();
   }

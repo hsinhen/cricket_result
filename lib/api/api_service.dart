@@ -79,11 +79,6 @@ class ApiService {
 
   static Future<MatchResult> fetchMatchScoreBoard(String id) async {
     final response = await get('match/$id');
-    // final responseJson = response['results'];
-    // print('testoo im here  $responseJson');
-    // var value = MatchResult.fromJson(responseJson);
-    // print('testoo im here2  $value');
-
     Map<String, dynamic> jsonMap = jsonDecode(response);
     MatchResult responseModel =
         MatchResult.fromJson(jsonMap['results'] as Map<String, dynamic>);

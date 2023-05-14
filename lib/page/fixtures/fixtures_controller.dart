@@ -15,7 +15,6 @@ class FixturesController extends GetxController {
 
   Future<void> fetchData(BuildContext context) async {
     try {
-      print('calling api');
       dataList.value = await ApiService.fetchFixtures();
       seriesList.value = await ApiService.fetchSeries();
       finalData.value = groupData();
