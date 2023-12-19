@@ -1,16 +1,22 @@
-# flutter_cricket
+# Cricket Results App
 
-A new Flutter project.
+This Flutter application serves as a platform to fetch live cricket match results and updates in real-time. The app utilizes the powerful state management capabilities of GetX, offering a seamless and reactive user experience.
+
+## Features
+
+- **Live Cricket Results:** Fetch real-time updates on ongoing cricket matches.
+- **Match Details:** View comprehensive match details including scores, teams, players, and match status.
+- **Favorite Matches:** Mark matches as **_favorites_** for quick access to preferred games.
+- **Intuitive User Interface:** A **_user-friendly_** design to navigate through matches effortlessly.
+
+## Technologies Used
+
+- **Flutter:** Utilizing Flutter framework for **_cross-platform_** development.
+- **GetX:** Employing GetX as the primary **_state management_** solution for its **_simplicity_** and **_efficiency_**.
+- **API Integration:** Integrating with cricket data APIs to fetch **_live match details_**.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Follow these steps to get started with the app:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone Repository:**
